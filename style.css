@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapp{
+    background: url("img7.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px , 100px;
+}
+.navbar{
+    height: 80px;
+    width:100%;
+    background: rgb(0,0,0,0.1);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin :0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(246, 86, 13);
+    padding: 6px 13px;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li a .active,.navbar ul li a:hover{
+    background-color: azure;
+    border-radius: 2px;
+}
+.wrapp .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:  rgb(246, 86, 13);
+    font-size: 30px;
+    width: 900px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.center h2{
+    color:  rgb(246, 86, 13);
+    font-size: 20px;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.center .button{
+    margin: 35px 280px;
+  
+}
+.button button{
+    height: 30px;
+    width:130px;
+    font-size: 16px;
+    color: rgb(250, 248, 246);
+    background: rgb(246, 86, 13);
+    border: 1px solid salmon;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+
+}
+.button .btn{
+    margin-left:25px ;
+}
+.button button:hover{
+    background-attachment:  white;
+    
+}
+/* About us */
+#about h1{
+    text-align: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+#about p{
+    width: 90%;
+    margin: auto;
+    font-family: arial;
+    line-height: 25px;
+    padding: 20px;
+}
+/* team css */
+.container{
+    margin-top: 10%;
+    background: #ccc;
+}
+.container h1{
+    font-family: arial;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    line-height: 20px;
+    color: chocolate;
+    position: relative;
+
+}
+.team .team_member:hover{
+    background-color:orange;
+    color: #fff;
+}
+.team .team_member h3{
+    color: chocolate;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: chocolate;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+
+}
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+
+}
+
+/* contacts */
+#contacts h1{
+    text-align: center;
+    font-family: arial;
+}
+#contacts table{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+#text{
+    width: 90%;
+    padding: 10px;;
+}
+
+/* footer */
+.footer{
+    background:000;
+    color: orangered;
+    padding: 20px;
+}
